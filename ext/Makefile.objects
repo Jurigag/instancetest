@@ -1,0 +1,84 @@
+instancetest.lo: /vagrant/www/test/instancetest/ext/instancetest.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest.c -o instancetest.lo 
+kernel/main.lo: /vagrant/www/test/instancetest/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /vagrant/www/test/instancetest/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /vagrant/www/test/instancetest/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /vagrant/www/test/instancetest/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /vagrant/www/test/instancetest/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /vagrant/www/test/instancetest/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /vagrant/www/test/instancetest/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /vagrant/www/test/instancetest/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /vagrant/www/test/instancetest/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /vagrant/www/test/instancetest/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /vagrant/www/test/instancetest/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/extended/fcall.lo: /vagrant/www/test/instancetest/ext/kernel/extended/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/extended/fcall.c -o kernel/extended/fcall.lo 
+kernel/require.lo: /vagrant/www/test/instancetest/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /vagrant/www/test/instancetest/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /vagrant/www/test/instancetest/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /vagrant/www/test/instancetest/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /vagrant/www/test/instancetest/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /vagrant/www/test/instancetest/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /vagrant/www/test/instancetest/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /vagrant/www/test/instancetest/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /vagrant/www/test/instancetest/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /vagrant/www/test/instancetest/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/kernel/exit.c -o kernel/exit.lo 
+instancetest/aservice.lo: /vagrant/www/test/instancetest/ext/instancetest/aservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/aservice.zep.c -o instancetest/aservice.lo 
+instancetest/bservice.lo: /vagrant/www/test/instancetest/ext/instancetest/bservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/bservice.zep.c -o instancetest/bservice.lo 
+instancetest/cservice.lo: /vagrant/www/test/instancetest/ext/instancetest/cservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/cservice.zep.c -o instancetest/cservice.lo 
+instancetest/dservice.lo: /vagrant/www/test/instancetest/ext/instancetest/dservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/dservice.zep.c -o instancetest/dservice.lo 
+instancetest/eservice.lo: /vagrant/www/test/instancetest/ext/instancetest/eservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/eservice.zep.c -o instancetest/eservice.lo 
+instancetest/exampleservice.lo: /vagrant/www/test/instancetest/ext/instancetest/exampleservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/exampleservice.zep.c -o instancetest/exampleservice.lo 
+instancetest/fservice.lo: /vagrant/www/test/instancetest/ext/instancetest/fservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/fservice.zep.c -o instancetest/fservice.lo 
+instancetest/gservice.lo: /vagrant/www/test/instancetest/ext/instancetest/gservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/gservice.zep.c -o instancetest/gservice.lo 
+instancetest/hservice.lo: /vagrant/www/test/instancetest/ext/instancetest/hservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/hservice.zep.c -o instancetest/hservice.lo 
+instancetest/iservice.lo: /vagrant/www/test/instancetest/ext/instancetest/iservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/iservice.zep.c -o instancetest/iservice.lo 
+instancetest/jservice.lo: /vagrant/www/test/instancetest/ext/instancetest/jservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/jservice.zep.c -o instancetest/jservice.lo 
+instancetest/kservice.lo: /vagrant/www/test/instancetest/ext/instancetest/kservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/kservice.zep.c -o instancetest/kservice.lo 
+instancetest/lservice.lo: /vagrant/www/test/instancetest/ext/instancetest/lservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/lservice.zep.c -o instancetest/lservice.lo 
+instancetest/mservice.lo: /vagrant/www/test/instancetest/ext/instancetest/mservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/mservice.zep.c -o instancetest/mservice.lo 
+instancetest/nservice.lo: /vagrant/www/test/instancetest/ext/instancetest/nservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/nservice.zep.c -o instancetest/nservice.lo 
+instancetest/oservice.lo: /vagrant/www/test/instancetest/ext/instancetest/oservice.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/vagrant/www/test/instancetest/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /vagrant/www/test/instancetest/ext/instancetest/oservice.zep.c -o instancetest/oservice.lo 
+$(phplibdir)/instancetest.la: ./instancetest.la
+	$(LIBTOOL) --mode=install cp ./instancetest.la $(phplibdir)
+
+./instancetest.la: $(shared_objects_instancetest) $(INSTANCETEST_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_instancetest) $(INSTANCETEST_SHARED_LIBADD)
+
